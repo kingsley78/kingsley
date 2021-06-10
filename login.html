@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOGIN PAGE</title>
+    <link href="FB.jpg" rel="shortcut icon">
+
+    <meta name="title" content="meta tags tutorial">
+    <meta name="discription" content="this is our first utorial">
+    <meta charset="utf-8">
+    <meta name="keywords" content="online tutor in enugu, affordable teacher in enugu">
+    <meta name="keywords" content="width=device=width,initial=scale=1">
+
+    <meta name="author" content="kingsley okereke">
+
+
+    <p>STUDENT LOGIN FORM</p>
+    <style>
+        body {
+            font-family: calibri, helvetica, san-serif;
+            background-color: pink
+        }
+
+        button {
+            background-color: blanchedalmond;
+            width: 100px;
+            color: orange;
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+        }
+
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        input[type=email],
+        input[type=password] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid green;
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px;
+            margin: 10px 5px;
+        }
+
+        .container {
+            padding: 25px;
+            background-color: light;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="confirmation.html">
+            <label>username:</label>
+            <input type="email" placeholder="enter username" name="username" required>
+
+            <label>password:</label><br>
+            <input type="password" placeholder="enter password" name="password" pattern="[a-zA-Z0-9]{8,20}"
+             required title=" Must be of 8 characters uppercase and lowercase letters">
+
+            <br><button type="submit">login</button>
+            <br><input type="checkbox" checked="checked">Remember Me
+            <br> <button type="button" class="cancelbtn">cancel</button>
+            Forgot<a href="#">password?</a>
+        </form>
+    </div>
+
+</body>
+
+</html>
